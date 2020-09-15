@@ -12,7 +12,10 @@
     },
 	"configurations": [
 		{
-			"dflags": [
+			"dflags-dmd": [
+				"-mixin=mixins.txt"
+			],
+			"dflags-ldc": [
 				"-mixin=mixins.txt"
 			],
 			"name": "unittest",
