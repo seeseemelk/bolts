@@ -19,7 +19,10 @@
 				"-mixin=mixins.txt"
 			],
 			"name": "unittest",
-			"targetType": "library"
+			"targetType": "library",
+			"excludedSourceFiles-gdc": [
+				"source/bolts/experimental/refraction.d"
+			]
 		}
 	],
 }
